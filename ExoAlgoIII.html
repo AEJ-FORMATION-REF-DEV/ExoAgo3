@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algo partie 2</title>
+
+    <style>
+        .conteneur{
+            text-align: center;
+        }
+
+        hr{
+          width: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="conteneur">
+
+      
+        <h1>Exercice 3.2</h1> <hr>
+        <p>Ecrire un algorithme qui demande deux nombres à l’utilisateur et l’informe ensuite si leur <br>
+         produit est négatif ou positif (on laisse de côté le cas où le produit est nul). Attention <br>
+         toutefois : on ne doit pas calculer le produit des deux nombres.<br> <br>
+           Variable nbre1, nbre2 en Entier  <br>
+           Début          <br>
+           Ecrire "Entrez deux nombres"          <br>
+           lire nbre1, nbre2          <br>
+           Si (nbre1 > 0 ET nbre2 > 0) OU (nbre1 < 0 ET nbre2 < 0) Alors  <br>
+            lire "le produits des nombres est positif" <br>
+           sinon        <br>
+            lire " le produit des nombres est négatif" <br>
+           Finsi  <br>
+           Fin                                  
+        </p>
+
+
+
+
+        <h1>Exercice 3.3</h1> <hr>
+        <p>Ecrire un algorithme qui demande trois noms à l’utilisateur et l’informe ensuite s’ils sont <br>
+         rangés ou non dans l’ordre alphabétique.<br> <br>
+           Variable nom1, nom2, nom3 en charactère  <br>
+           Début          <br>
+           Ecrire "Entrez trois noms : "          <br>
+           lire nom1, nom2, nom3          <br>
+           Si nom1 < nom2 ET nom2 < nom3 Alors <br>
+            lire "les noms sont rangé dans l'ordre alphabétique" <br>
+           sinon <br>
+            lire " les noms ne sont pas rangé" <br>
+            Finsi<br>
+           Fin                                  <br>
+        </p>
+
+
+
+        <h1>Exercice 3.4</h1> <hr>
+      <p>Ecrire un algorithme qui demande un nombre à l’utilisateur, et l’informe ensuite si ce <br>
+         nombre est positif ou négatif (on inclut cette fois le traitement du cas où le nombre vaut
+         zéro).<br> <br>
+         Variable nbre en numérique              <br>
+         Début          <br>
+         Ecrire "Entrez un nombre: "          <br>
+         si nbre > 0 alors  <br>
+          lire "le nombre entré est positif" <br>
+         sinonsi nbre < 0 alors <br>
+          lire " le nombre entré est négatif" <br>
+          sinon             <br>
+          lire " le nombre entré nul" <br>
+          Finsi  <br>
+         Fin                                  <br>
+      </p>
+
+      <h1>Exercice 3.5</h1> <hr>
+      <p>Ecrire un algorithme qui demande deux nombres à l’utilisateur et l’informe ensuite si le <br>
+         produit est négatif ou positif (on inclut cette fois le traitement du cas où le produit peut être
+         nul). Attention toutefois, on ne doit pas calculer le produit !<br> <br>
+         Variable nbre1, nbre2 en Entier  <br>
+         Début          <br>
+         Ecrire "Entrez deux nombres"          <br>
+         lire nbre1, nbre2          <br>
+         Si nbre1 = 0 OU nbre2 = 0  Alors  <br>
+          lire "le produits des nombres est nul" <br>
+         sinonsi (nbre1 > 0 ET nbre2 > 0) OU (nbre1 < 0 ET nbre2 < 0)  alors     <br>
+          lire " le produit des nombres est positif" <br>
+         sinon <br>
+         Ecrire "Le produit des nombres est négatif"<br>
+         Finsi  <br>
+         Fin                                  
+      </p>
+      
+
+      <h1>Exercice 3.6</h1> <hr>
+      <p>Ecrire un algorithme qui demande à un utilisateur son nom, prénom, email et mot de passe.
+         Si le mot de passe n’est pas au format xxxx@mail.com il aura le message ‘erreur de mot de
+         passe ‘<br>
+         Si le mot de passe est < 8 caractère il doit avoir le message « votre mot de passe doit
+         comporter 8 caractère.
+         Dans le cas contraire il aura le message ‘’vos informations ont bien été enregistré<br> <br>
+         Variable nom, prenom, email, mot_de_passe en charactère  <br>
+         Début          <br>
+         Ecrire "Entrez votre nom et prenom :"          <br>
+         lire nom, prenom         <br>
+         Ecrire "Entrez votre email :"          <br>
+         lire email          <br>
+         Ecrire "Entrez votre mot de passe :"          <br>
+         lire mot_de_passe          <br>
+         Si mot_de_passe != xxxx@mail.com Alors  <br>
+          lire "erreur de mot de passe " <br>
+         sinonsi  (mot_de_passe == xxxx@mail.com ET mot_de_passe > 8 ) alors     <br>
+          lire "vos informations ont bien été enregistré" <br>
+         sinon <br>
+         Ecrire "votre mot de passe doit comporter 8 caractère."<br>
+         Finsi <br>
+         Fin                                  
+      </p>
+
+      
+
+
+    </div>
+</body>
+</html>
